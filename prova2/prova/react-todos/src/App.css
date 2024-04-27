@@ -1,0 +1,50 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color:#131212;
+  padding: 10px;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.App-main {
+  padding: 10px;
+}
+
+.todos-container {
+  padding: 10px;
+}
+
+.loading-container {
+  text-align: center;
+}
+
+.table {
+  width: 98%;
+  margin: auto;
+}
+
+.table th, .table td {
+  text-align: center;
+  
+}
+
+.table th {
+  background-color: #131212;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #DCDCDC;
+}
+
